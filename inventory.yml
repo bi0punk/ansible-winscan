@@ -1,0 +1,9 @@
+all:
+  hosts:
+    windows_host:
+      ansible_host: 192.168.1.146
+      ansible_user: automation
+      ansible_password: "abcABC1234567890"
+      ansible_connection: winrm
+      ansible_winrm_transport: ntlm
+      ansible_port: 5985

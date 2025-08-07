@@ -1,0 +1,15 @@
+- name: Subir script de escaneo
+  win_copy:
+    src: advanced_scan.ps1
+    dest: C:\Windows\Temp\advanced_scan.ps1
+
+- name: Ejecutar script PowerShell
+  win_shell: |
+    powershell.exe -ExecutionPolicy Bypass -File C:\Windows\Temp\advanced_scan.ps1
+  register: scan_result
+
+- name: Mostrar resultados
+  debug:
+    var: scan_result.stdout_lines
+
+
