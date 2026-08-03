@@ -3,7 +3,7 @@
 Ansible playbook to scan Windows hosts for security vulnerabilities and potential backdoors using PowerShell scripts.
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI](https://github.com/tu-usuario/ansible-winscan/actions/workflows/ci.yml/badge.svg)](https://github.com/tu-usuario/ansible-winscan/actions/workflows/ci.yml)
+[![CI](https://github.com/bi0punk/ansible-winscan/actions/workflows/ci.yml/badge.svg)](https://github.com/bi0punk/ansible-winscan/actions/workflows/ci.yml)
 
 ## Tabla de Contenidos
 
@@ -58,7 +58,7 @@ ansible-winscan/
 ## Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/ansible-winscan.git
+git clone https://github.com/bi0punk/ansible-winscan.git
 cd ansible-winscan
 
 # Instalar colecciones necesarias
